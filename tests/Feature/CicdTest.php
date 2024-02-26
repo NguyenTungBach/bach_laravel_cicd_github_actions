@@ -15,7 +15,7 @@ class CicdTest extends TestCase
      */
     public function test_example()
     {
-        $response = $this->get('api/cicd_error');
+        $response = $this->get('api/cicd');
 
         $response->assertStatus(200);
     }
